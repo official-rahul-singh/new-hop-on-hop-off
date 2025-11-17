@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.codeActionsOnSave": {},
+    
+    "emmet.includeLanguages": {
+        "php": "html"
+    }
+}

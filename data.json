@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "name": "London",
+      "url": "city/london-bus-tours",
+      "icon": "icon-location-2"
+    },
+    {
+      "name": "London Christmas Light",
+      "url": "city/london-christmas-light-bus-tours",
+      "icon": "icon-location-2"
+    }
+  ],
+  "tours": [
+    {
+      "title": "London City Tour: Hop-On, Hop-Off with River Cruise",
+      "url": "tour-london-hop-on-hop-off-city-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/229.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 1 Day, 24, 48 & 72 Hours"
+    },
+    {
+      "title": "Golden Tours: Christmas Lights Tour by Night Ex-London",
+      "url": "tour-christmas-lights-london-by-night-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/834.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 90 mins (Approx.)"
+    },
+    {
+      "title": "Golden Tours: London Hop-On, Hop-Off Bus Tour",
+      "url": "tour-london-hop-on-hop-off-open-top-bus-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/814.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 1 Day, 24, 48 or 72 Hours"
+    },
+    {
+      "title": "Golden Tours: Christmas Lights Tour by Night Ex-Victoria",
+      "url": "tour-christmas-lights-london-tour-by-night-ex-victoria",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/2029.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 90 mins (Approx.)"
+    },
+    {
+      "title": "TooTBus: London Hop-On, Hop-Off with Optional River Cruise",
+      "url": "tour-the-original-london-hop-on-hop-off-bus-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/111.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 24, 48 & 72 Hours"
+    },
+    {
+      "title": "TooTBus: London Christmas Lights Panoramic Bus Tour",
+      "url": "tour-london-christmas-lights-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/773.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 60 Minutes (Approx.)"
+    },
+    {
+      "title": "Big Bus Tours: London Christmas Light Night Tour",
+      "url": "tour-big-bus-tours-london-christmas-lights-night-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/2009.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 1 hour 30 minutes (Approx.)"
+    },
+    {
+      "title": "City Sightseeing: London Hop-On, Hop-Off Bus Tour",
+      "url": "tour-city-sightseeing-london-hop-on-hop-off-bus-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/767.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 1 Day, 24, 48 & 72 Hours"
+    },
+    {
+      "title": "Big Bus: London Hop-On, Hop-Off Bus Tour",
+      "url": "tour-big-bus-london-hop-on-hop-off-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/142.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 24 & 48 Hours"
+    },
+    {
+      "title": "Golden Tours: Christmas Lights Tour by Night Ex-Green Park",
+      "url": "tour-christmas-lights-london-tour-by-night-ex-green-park",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/2030.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 90 mins (Approx.)"
+    },
+    {
+      "title": "TooTBus: London Discovery Hop-On, Hop-Off Bus Tour",
+      "url": "tour-london-discovery-hop-on-hop-off-bus-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/770.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 24 Hrs, 48 Hrs, 72 Hrs"
+    },
+    {
+      "title": "See London by Night: Christmas Light Open-Top Bus Tour",
+      "url": "tour-see-london-by-night-bus-christmas-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/2028.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Tour Duration: 1 Hours (Approx.)"
+    },
+    {
+      "title": "City Sightseeing: London Christmas Lights Tour",
+      "url": "tour-city-sightseeing-london-christmas-lights-tour",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/1005.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 90 Minutes"
+    },
+    {
+      "title": "TooTBus: London Hop-On, Hop-Off with London Night Tour",
+      "url": "tour-london-hop-on-hop-off-with-london-by-night",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/1319.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Ticket Validity: 24, 48 & 72 Hours"
+    },
+    {
+      "title": "Premium Tours: London Vintage Open-Top Bus Tour with Cruise",
+      "url": "tour-london-tour-by-open-deck-vintage-bus-with-cruise",
+      "image": "https://ik.imagekit.io/dejuq46pi/Thumbnail/167.webp?updatedAT=2025110406158972320&f=webp",
+      "details": "Duration: 3 Hours (Approx.)"
+    }
+  ]
+}

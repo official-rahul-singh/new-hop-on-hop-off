@@ -1,0 +1,683 @@
+/* hero header start */
+
+.hero-title::after {
+    content: "";
+    position: absolute;
+    background: url("../img/sub-heading-icon.svg") no-repeat;
+    width: 27px;
+    height: 27px;
+    right: 65px;
+    top: -7px;
+    background-size: contain;
+}
+
+
+.hero-container .sub-heading::after {
+    display: none;
+}
+
+.popluar-search span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.popluar-search a {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--pc);
+    border: 1px solid #f7bcb9;
+    padding: 5px 16px;
+    background-color: #FFE7E3;
+    border-radius: 31px;
+    transition: all 0.1s ease-in-out;
+}
+
+.popluar-search a:hover {
+    background-color: #fdddd8;
+    border-color: #ffa2a2;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.search-box input {
+    width: 100%;
+    border: var(--border);
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.search-box button {
+    background-color: var(--pc);
+    padding: 14px 20px;
+    border-radius: 35px;
+    display: inline-flex;
+    gap: 10px;
+    color: var(--white);
+    height: 100%;
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.search-box button:hover {
+    background-color: #870202;
+    scale: 1.05;
+}
+
+/* hero header end */
+
+
+.photo-sec {
+    position: relative;
+}
+
+.photo-sec .photo-img {
+    position: relative;
+    /* width: fit-content; */
+}
+
+.photo-sec .photo-img img {
+    border: 10px solid var(--white);
+    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.078);
+    object-fit: cover;
+}
+
+.photo-sec .photo-img:nth-child(1) img {
+    width: 170px;
+    height: 202px;
+    transform: rotate(353deg);
+    z-index: 2;
+}
+
+.photo-sec .photo-img:nth-child(1) {
+    left: 10px;
+    top: -70px;
+    position: absolute;
+    z-index: 1;
+}
+
+.photo-sec .photo-img:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    background: url("../img/location-icon.svg") no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    left: 22px;
+    top: -62px;
+}
+
+
+.photo-sec .photo-img:nth-child(2) img {
+    width: 307px;
+    height: 380px;
+    transform: rotate(353deg);
+}
+
+
+.photo-sec .photo-img:nth-child(2) {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 0;
+}
+
+
+.photo-sec .photo-img:nth-child(3) img {
+    width: 210px;
+    height: 250px;
+    transform: rotate(6deg);
+}
+
+
+.photo-sec .photo-img:nth-child(3) {
+    right: 0;
+    top: -75px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.photo-sec .photo-img:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    background: url("../img/lets-go-travel.svg") no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    right: 30px;
+    top: -126px;
+}
+
+
+.photo-sec .photo-img:nth-child(3)::before {
+    transform: rotate(1deg);
+}
+
+
+.photo-sec .photo-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--pc);
+    position: absolute;
+    transform: rotate(347deg);
+}
+
+/* popular searches start */
+
+.keywords-wrapper {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popular-search {
+    background: url("../img/city-bg.svg") no-repeat center;
+    background-size: contain;
+    padding-block: 20px 73px;
+}
+
+/* popular searches end */
+
+/* step box start */
+.step-box-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    padding-top: 35px;
+    position: relative;
+    padding-inline: 40px;
+}
+
+.route {
+    position: absolute;
+    width: 105%;
+    z-index: 1;
+    pointer-events: none;
+    background-size: contain;
+    left: -27px;
+    top: 0;
+}
+
+.route::before,
+.route::after {
+    content: "";
+    position: absolute;
+}
+
+.route::before {
+    left: -18px;
+    background: url("../img/person.svg") no-repeat;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    top: -31px;
+}
+
+.route::after {
+    right: -18px;
+    background: url("../img/bus.svg") no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 72px;
+    top: 90px;
+}
+
+.step-box-container .step-box:nth-child(2n) {
+    margin-top: 50px;
+}
+
+.step-box-container .step-box:nth-child(2) {
+    background-color: #FFFBE6;
+}
+
+.step-box-container .step-box:nth-child(3) {
+    background-color: #E2E3F5;
+}
+
+.number {
+    color: #c9c9c9;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    right: 10%;
+}
+
+
+/* step box end */
+
+/* partner start */
+.partners {
+    background-color: var(--pc);
+    padding-block: 35px;
+}
+
+.scroller__inner img {
+    background-color: var(--white);
+}
+
+.partner-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.partner-title::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #f7cfcf;
+    margin-left: 30px;
+}
+
+/* marquee animation start */
+.scroller {
+    max-width: 100%;
+}
+
+.marquee-list .scroller__inner {
+    display: flex;
+    gap: 40px;
+}
+
+/* .tag-list li {
+display: flex;
+gap:10px;
+} */
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* marquee animation end */
+
+/* marquee my code */
+/* .marquee-list{
+  padding: 25px 20px;
+  background-color: var(--pc);
+  font-size: var(--fs-18);
+  color: var(--white);
+  overflow: hidden;
+} */
+
+.enterprise-list .scroller__inner img {
+    margin-right: 15px;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+}
+
+/* partner end */
+
+
+
+/* destination start */
+.world-destination-sec {
+    border: 1px solid var(--pc);
+    padding: clamp(1.125rem, 0.5893rem + 1.4286vw, 1.875rem);
+    border-radius: 10px;
+    width: 100%;
+    background: url("../img/destination-bg.webp") no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.world-destination-tab-img {
+    border-radius: 8px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.world-destination-tab-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.world-destination-sec .world-destination-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 30px;
+    max-height: 422px;
+}
+
+.world-destination-content {
+    border: 1px solid #BEBEBE;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 420px;
+    overflow: auto;
+    background-color: var(--white);
+}
+
+.country-box {
+    border: 1px solid #FFB6AF;
+    background-color: #FFF4F3;
+    border-radius: 4px;
+    width: fit-content;
+    padding-right: 20px;
+    flex: auto;
+    height: fit-content;
+}
+
+.country-box ul {
+    gap: 16px 36px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 16px;
+    list-style: none;
+}
+
+.country-box ul li {
+    position: relative;
+}
+
+.country-box ul li::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: -13px;
+    border-radius: 50%;
+    background-color: var(--pc);
+    top: 7px;
+}
+
+.country-box a {
+    color: var(--black);
+    transition: var(--transition);
+}
+
+.country-box a:hover {
+    color: var(--pc)
+}
+
+.country-title {
+    padding: 16px;
+    background-color: #FFCBC7;
+    margin-right: 36px;
+    font-weight: 600;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.country-title:hover {
+    color: var(--pc);
+}
+
+/* width */
+.world-destination-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+.world-destination-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.world-destination-content::-webkit-scrollbar-thumb {
+    background: var(--pc);
+    border-radius: 10px;
+}
+
+/* destination end */
+
+
+/* bus animation start */
+.bus-animation {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    animation: drive 15s linear infinite;
+}
+
+.bus-image {
+    width: 160px;
+    height: auto;
+}
+
+.travel-badge {
+    position: absolute;
+    right: -173px;
+    top: -17px;
+    font-size: 14px;
+    background-color: #FFC300;
+    font-weight: 500;
+    padding: 4px 11px;
+    border-radius: 36px;
+}
+
+.travel-badge::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/travel-badge.svg") no-repeat;
+    background-size: contain;
+}
+
+/* .bus-animation::after {
+            content: "Travel. Explore. Enjoy.";
+            position: absolute;
+            background-color: yellow;
+            white-space: nowrap;
+        } */
+
+/* @keyframes drive {
+            0% { left: -150px; }
+            100% { left: 100%; }
+        } */
+
+/* bus animation end */
+
+
+
+/* home page css start */
+
+/* search suggestion end */
+@media (max-width:1024px) {
+    .photo-sec .photo-img:nth-child(2) img {
+        height: 300px;
+    }
+
+    .photo-sec .photo-img:nth-child(1) img {
+        width: 136px;
+        height: 159px;
+    }
+
+    .photo-sec .photo-img:nth-child(3) img {
+        width: 154px;
+        height: 180px;
+    }
+
+    .hero-title::after {
+        right: 0;
+        width: 20px;
+    }
+
+    .photo-sec .photo-img:nth-child(3)::after {
+        right: 10px;
+    }
+
+    .photo-sec .photo-img:nth-child(1)::after {
+        left: 0;
+    }
+
+
+    .step-box-container {
+        grid-template-columns: auto auto;
+    }
+
+    .route {
+        display: none;
+    }
+
+    .amenity-container {
+        width: 100%;
+    }
+
+    .amenity-box {
+        height: unset;
+        padding: 20px 0px;
+    }
+
+    .amenity-box p {
+        font-size: clamp(0.875rem, 0.7857rem + 0.2381vw, 1rem);
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .world-destination-tab-img {
+        display: none;
+    }
+
+    .world-destination-sec .world-destination-container {
+        grid-template-columns: auto;
+    }
+
+    .photo-sec {
+        display: none;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .world-destination-tab {
+        gap: 10px;
+    }
+
+    .popluar-search span {
+        display: none;
+    }
+
+    .search-box button span {
+        display: none;
+    }
+
+    .search-box button {
+        padding: 10px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+
+    .search-box input {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    .hero-container .sub-heading {
+        display: none;
+    }
+
+    .hero-container {
+        z-index: 1;
+        position: relative;
+    }
+
+    .world-destination-content {
+        display: block;
+        padding: 10px;
+    }
+
+    .hero-header::before {
+        content: "";
+        position: absolute;
+        background: url("../img/hop-bg-mobile.webp") no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 199px;
+        top: 0;
+        z-index: 0;
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    .country-box {
+        flex-direction: column;
+        padding-right: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .country-box .country-title {
+        margin-right: 0px;
+    }
+
+    .country-box ul {
+        padding-inline: 28px;
+    }
+
+    .step-box-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+
+    .step-box-container .step-box:nth-child(2n) {
+        margin-top: unset;
+    }
+
+    .homepage :is(.step-section, .video-testimonials-sec, .partners) {
+        display: none;
+    }
+
+
+    .popular-search {
+        background: unset;
+        padding-block: 0 50px;
+    }
+
+}
+/* home page css end */
