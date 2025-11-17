@@ -638,7 +638,7 @@ include 'header.php'; ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-lg-8">
+                <div class="col-xl-9 col-lg-7">
                     <div class="swiper destination-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
